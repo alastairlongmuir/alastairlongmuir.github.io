@@ -1,3 +1,81 @@
-.text-name {
-	color: pink;
+body {
+  margin: 0;
+  padding: 0;
 }
+.slide {
+  width: 110vw;
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 420vw;
+ 
+}
+.one {
+  background: #ffffff;
+}
+
+
+.two {
+  color: white;
+  background: #000000;
+}
+
+.two a{
+  color: #a1caf1;
+
+}
+
+
+
+
+
+.three {
+  background: #0bbaa0;
+}
+.four {
+  background: #00dfdf;
+}
+
+
+.hello h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 6vw;
+
+}
+
+.hello h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 4vw;
+
+}
+
+.right {
+
+  max-width: 3vw;
+  height: auto;
+  opacity: 1;
+  cursor: pointer;
+
+}
+
+.right2 {
+
+  max-width: 3vw;
+  height: auto;
+  opacity: 1;
+  filter: invert(1);
+  cursor: pointer;
+}
+
+.myface {
+  filter: grayscale(100%);
+  max-width: 18vw;
+  height: auto;
+  opacity: 1;
+
+}
+
+
+

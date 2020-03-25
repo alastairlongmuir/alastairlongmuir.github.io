@@ -1,87 +1,166 @@
-<!doctype html>
-<html lang="en">
+  <!doctype html>
+  <html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Hello Alastair!</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+
+
+    <title>Hello, world!</title>
   </head>
   <body>
-<div id="main">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<header class="center-content mt-4"><h1 class="text-justify">ALASTAIR LONGMUIR: CV</h1></header>
-			</div>
-			<div class="row">
-			<ul class="nav navbar-center">
-			  <li class="nav-item col-md-3">
-			    <p class="nav-link">EMAIL: <a href="mailto:alastairlinwood@gmail.com">alastairlinwood@gmail.com</a></p>
-			  </li>
-			  <li class="nav-item col-md-3">
-			    <p class="nav-link">PHONE NUMBER: <a href="tel:+447838755323">+44 7838 755 323</a></p>
-			  </li>
-			  <li class="nav-item col-md-3">
-			    <p class="nav-link">HOME TOWN: <a data-toggle="modal" href="#homeModal">Adelaide, Australia</a></p>
-			  </li>
-			  <li class="nav-item col-md-3">
-			    <p class="nav-link">CURRENT LOCATION: <a data-toggle="modal" href="#locationModal">Berlin, Germany</a></p>
-			  </li>
-			  </li>
-			</ul>
-			</div>
-		</div>
-	</div>
-</div>
-   
+    <div class="outer-wrapper">
+      <div class="wrapper">
+        <div class="slide one">
 
-<!-- Modal -->
-<div class="modal fade" id="homeModal" tabindex="-1" role="dialog" aria-labelledby="homeModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="homeModalLabel"></h5>
-       
-        </button>
-      </div>
-      <div class="modal-body">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d418336.00732226507!2d138.33097058658817!3d-35.00044505721207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab735c7c526b33f%3A0x4033654628ec640!2sAdelaide%20SA%2C%20Australia!5e0!3m2!1sen!2sde!4v1584982667309!5m2!1sen!2sde" width="465" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-12 mt-5 pt-5 hello">
+                <h1>Hello, I'm Alastair.</h1>
+              </div>
+              
+            </div>
+
+
+            <div class="row mt-3 ml-4">
+              <div class="col-12">
+                <p class="lead">I've designed this website as part of my application for 'Babbel Neos: Engineering Mentoring Program'.</p>
+              </div>
+
+            </div>
+
+            
+
+            <div class="row mt-5 pt-5">
+              <div class="col-9"></div>
+              <div class="col-3">
+                <img src="next.png" alt="continue" class="right" onclick="scrollToAbout()">
+                <img src="next.png" alt="continue" class="right" onclick="scrollToAbout()">
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+        <div class="slide two" id="scroll1">
+          <div class="container">
+            <div class="row mt-2">
+              <div class="col-1">
+              </div>
+              <div class="col-4 mt-5 pt-5 hello">
+                <h2>About me:</h2>
+              </div>
+              <div class="col-4 mt-5 pt-5 hello">
+                <p class="lead">I'm 22 years old and come from Adelaide, Australia. In December 2019, I moved to Berlin, and have since been working at <a href="https://canary.is/">Canary</a> as tech support.</p>
+              <div class="col-3">
+              </div>
+
+              </div>
+
+              
+            </div>
+
+
+            
+
+            
+
+            <div class="row">
+              <div class="col-1">
+              </div>
+              <div class="col-4"><img src="me.jpg" class="myface"></div>
+              <div class="col-4">
+
+
+                <p class="lead">I have no formal training in programming or web design, most of what I know has been learnt from online courses; in particular, <a href="https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/">Andrei Neagoie's Udemy course</a>.</p>
+
+                <p class="lead">Prior to my current employment, I was working as a bartender in London.</p>
+
+                <p class="lead">Travelling is a passion of mine, so far I have visited 23 countries, spanning 4 continents.</p>
+
+              <div class="col-3">
+              </div>
+
+              </div>
+
+
+            </div>
+
+            <div class="row">
+              <div class="col-10">
+              </div>
+              <div class="col-2">
+                <img src="next.png" alt="continue" class="right2" onclick="scrollToAbout()">
+                <img src="next.png" alt="continue" class="right2" onclick="scrollToAbout()">
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="slide three">
+
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                One of three columns
+              </div>
+              <div class="col-sm">
+                One of three columns
+              </div>
+              <div class="col-sm">
+                One of three columns
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="slide four">
+
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                One of three columns
+              </div>
+              <div class="col-sm">
+                One of three columns
+              </div>
+              <div class="col-sm">
+                One of three columns
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
-  </div>
-</div>
-
-<!-- Modal -->
-<div class="modal fade" id="locationModal" tabindex="-1" role="dialog" aria-labelledby="locationModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="locationModalLabel"></h5>
-       
-        </button>
-      </div>
-      <div class="modal-body">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d310846.4201542927!2d13.144553228954608!3d52.50651326959206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e373f035901%3A0x42120465b5e3b70!2sBerlin!5e0!3m2!1sen!2sde!4v1584983258180!5m2!1sen!2sde" width="465" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
 
     <!-- Optional JavaScript -->
+
+
+    <script>
+      function scrollToAbout() {
+        var scroll1 = document.getElementById("scroll1");
+        scroll1.scrollIntoView({ behavior: 'smooth', block: 'end'});
+      }
+    </script>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
   </body>
-</html>
+  </html>
