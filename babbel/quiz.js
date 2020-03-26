@@ -24,6 +24,7 @@ let showQuestion = (question) => {
   question.answers.forEach(answer => {
     const button = document.createElement('button')
     button.innerText = answer.text
+    button.classList.add('btn-outline-dark')
     button.classList.add('btn')
     if (answer.correct) {
       button.dataset.correct = answer.correct
@@ -60,18 +61,20 @@ let setStatusClass = (element, correct) => {
   clearStatusClass(element)
   if (correct) {
     element.classList.add('correct')
-    element.classList.add('btn-warning')
+    element.classList.remove('btn-outline-dark')
+    element.classList.add('btn-outline-success')
   } else {
     element.classList.add('wrong')
-    element.classList.add('btn-light')
+    element.classList.remove('btn-outline-dark')
+    element.classList.add('btn-outline-danger')
   }
 }
 
 let clearStatusClass = (element) => {
   element.classList.remove('correct')
   element.classList.remove('wrong')
-  element.classList.remove('btn-warning')
-  element.classList.remove('btn-light')
+  element.classList.remove('btn-outline-success')
+  element.classList.remove('btn-outline-danger')
 }
 
 const questions = [
