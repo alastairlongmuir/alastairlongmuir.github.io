@@ -61,6 +61,16 @@ body {
 
 }
 
+.four a {
+  color:white;
+
+}
+
+.four a:hover {
+  color:white;
+  
+}
+
 .right {
 
   max-width: 3vw;
