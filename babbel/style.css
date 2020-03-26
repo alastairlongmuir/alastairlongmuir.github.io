@@ -32,10 +32,14 @@ body {
 
 
 .three {
-  background: #0bbaa0;
+  color: #202020;
+  background: #a1caf1;
 }
+
+
 .four {
-  background: #00dfdf;
+  color: #ffffff;
+  background: #202020;
 }
 
 
@@ -48,6 +52,12 @@ body {
 .hello h2{
   font-family: 'Playfair Display', serif;
   font-size: 4vw;
+
+}
+
+.hello h3{
+  font-family: 'Playfair Display', serif;
+  font-size: 2vw;
 
 }
 
@@ -67,6 +77,16 @@ body {
   opacity: 1;
   filter: invert(1);
   cursor: pointer;
+}
+
+.left {
+
+  max-width: 3vw;
+  height: auto;
+  opacity: 1;
+  filter: invert(1);
+  cursor: pointer;
+  transform: rotate(180deg);
 }
 
 .myface {

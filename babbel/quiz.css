@@ -1,0 +1,35 @@
+
+  
+
+  
+  .btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+
+  
+  .btn:hover {
+    border-color: black;
+  }
+  
+
+
+  
+
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hide {
+    display: none;
+  }
+
+  .quizcontainer {
+    margin-top: 2vh;
+  }
